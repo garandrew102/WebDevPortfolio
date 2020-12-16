@@ -31,7 +31,7 @@
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   font-size: 100px;
 }
 
@@ -51,4 +51,14 @@
   background-repeat: no-repeat;
   color: white;
   font-size: 100px;
+}
+
+.source-code {
+  padding-top: 1.5%;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
