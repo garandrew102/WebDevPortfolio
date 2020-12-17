@@ -17,6 +17,15 @@
   font-size: 3rem;
 }
 
+.landing-page {
+  /* background-image: url("/images/img-2.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+}
+
 .resume {
   /* background-image: url("/images/img-2.jpg"); */
   background-position: center;
@@ -26,14 +35,14 @@
   font-size: 100px;
 }
 
-.projects {
-  /* background-image: url("/images/img-1.jpg"); */
+/* .projects {
+  background-image: url("/images/img-1.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: black;
   font-size: 100px;
-}
+} */
 
 .about-me {
   /* background-image: url("/images/img-8.jpg"); */
