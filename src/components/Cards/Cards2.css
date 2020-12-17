@@ -8,14 +8,38 @@
   height: 90vh;
 }
 
-.card-title {
+.meme-park {
   background-image: url(../../images/MemePark.png);
-  color: #fff;
+  color: white;
+  height: 172px;
+  background-size: cover;
+  background-position: center;
+}
+
+.campo {
+  background-image: url(../../images/Campo.png);
+  color: white;
+  height: 172px;
+  background-size: cover;
+  background-position: center;
+}
+
+.heart2heart {
+  background-image: url(../../images/Heart2Heart.png);
+  color: white;
   height: 172px;
   background-size: cover;
   background-position: center;
 }
 
 .card-text {
+  text-align: center;
+}
+
+.card-menu {
+  color: white;
+}
+
+h5 {
   text-align: center;
 }
