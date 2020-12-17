@@ -95,7 +95,7 @@ function Cards() {
 
       {/* Project 3 */}
       <Card shadow={5}>
-        <CardTitle className="heart2heart"></CardTitle>
+        <CardTitle className="heart2heart">{/* Heart2Heart */}</CardTitle>
         <CardText className="card-text">
           <i>
             A MERN stack social media web application coded for the Palm Beach
