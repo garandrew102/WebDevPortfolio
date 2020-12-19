@@ -1,6 +1,48 @@
 .cards {
-  padding: 4rem;
-  background: #fff;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+  flex-wrap: wrap;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: initial;
+}
+
+.meme-park {
+  background-image: url(../../images/MemePark.png);
+  color: white;
+  height: 172px;
+  background-size: cover;
+  background-position: center;
+}
+
+.campo {
+  background-image: url(../../images/Campo.png);
+  color: white;
+  height: 172px;
+  background-size: cover;
+  background-position: center;
+}
+
+.heart2heart {
+  background-image: url(../../images/Heart2Heart.png);
+  color: white;
+  height: 172px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-menu {
+  color: white;
+}
+
+h5 {
+  text-align: center;
 }
 
 h1 {
@@ -97,6 +139,16 @@ h1 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.source-code {
+  padding-top: 1.5%;
 }
 
 @media only screen and (min-width: 1200px) {

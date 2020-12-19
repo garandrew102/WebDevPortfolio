@@ -1,6 +1,5 @@
 import React from "react";
 import "./Cards.css";
-import "./Cards2.css";
 import {
   Card,
   CardText,
