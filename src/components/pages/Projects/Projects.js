@@ -3,7 +3,7 @@ import Cards from "../../Cards/Cards";
 import "../../../App.css";
 import projectsbg from "../../../videos/projectsbg.mp4";
 
-const Projects = () => {
+function Projects() {
   return (
     <div className="projects">
       <video autoPlay loop muted>
@@ -12,6 +12,6 @@ const Projects = () => {
       <Cards />
     </div>
   );
-};
+}
 
 export default Projects;
