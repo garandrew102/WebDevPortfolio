@@ -1,8 +1,8 @@
 import React from "react";
 import homePaint from "../../../videos/homePaint.mp4";
+import Button from "../../Button/Button";
 import "../../../App.css";
 import "../LandingPage/LandingPage.css";
-import Button from "../../Button/Button";
 
 function LandingPage() {
   return (
@@ -14,7 +14,7 @@ function LandingPage() {
       <p>GLIBI TRIX PROD KING</p>
       <div className="landing-page-btns">
         <Button
-          className="btns"
+          className="btn"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >

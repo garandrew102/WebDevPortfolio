@@ -1,6 +1,6 @@
-:root {
+/* :root {
   --primary: white;
-}
+} */
 
 .btn {
   padding: 8px 20px;
@@ -10,16 +10,16 @@
   cursor: pointer;
 }
 
-.btn--primary {
-  border: 1px solid var(--primary);
-  background-color: var(--primary);
+/* .btn--primary {
+  border: 1px solid black;
+  background-color: black;
   color: black;
-}
+} */
 
 .btn--outline {
-  border: 1px solid var(--primary);
+  border: 1px solid black;
   background-color: transparent;
-  color: white;
+  color: black;
   padding: 8px 20px;
   transition: all 0.3s ease-out;
 }
@@ -36,7 +36,7 @@
 
 .btn--medium:hover,
 .btn--large:hover {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   transition: all 0.3s ease-out;
 }
