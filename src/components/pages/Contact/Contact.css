@@ -1,0 +1,45 @@
+.contact-body {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-grid {
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  font-weight: bold;
+  font-family: "oxygen";
+}
+
+.contact-grid h2 {
+  font-family: "oxygen";
+}
+
+.contact-grid-bottom {
+  margin-top: 75px;
+}
+
+.contact-grid hr {
+  border-top: 1px solid black;
+  width: 29%;
+  margin: auto;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contact-list i {
+  font-size: 40px;
+  padding-top: 3rem;
+  margin-right: 3rem;
+}
+
+.contact-quote p {
+  margin-top: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+  /* background: white; */
+}

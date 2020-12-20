@@ -22,7 +22,7 @@ function Cards() {
           </i>
         </CardText>
         <CardActions>
-          <div className="project-buttons">
+          <div className="card-buttons">
             <div className="visit">
               <Button
                 raised
@@ -34,7 +34,7 @@ function Cards() {
                 Visit
               </Button>
             </div>
-            <div className="source-code">
+            <div className="source-code-btn">
               <Button
                 raised
                 ripple
@@ -62,7 +62,7 @@ function Cards() {
           </i>
         </CardText>
         <CardActions>
-          <div className="project-buttons">
+          <div className="card-buttons">
             <div className="visit">
               <Button
                 raised
@@ -74,7 +74,7 @@ function Cards() {
                 Visit
               </Button>
             </div>
-            <div className="source-code">
+            <div className="source-code-btn">
               <Button
                 raised
                 ripple
@@ -94,7 +94,7 @@ function Cards() {
 
       {/* Project 3 */}
       <Card shadow={5}>
-        <CardTitle className="heart2heart"></CardTitle>
+        <CardTitle className="heart2heart">{/* Heart2Heart */}</CardTitle>
         <CardText className="card-text">
           <i>
             A MERN stack social media web application coded for the Palm Beach
@@ -103,7 +103,7 @@ function Cards() {
           </i>
         </CardText>
         <CardActions>
-          <div className="project-buttons">
+          <div className="card-buttons">
             <div className="visit">
               <Button
                 raised
@@ -115,7 +115,7 @@ function Cards() {
                 Visit
               </Button>
             </div>
-            <div className="source-code">
+            <div className="source-code-btn">
               <Button
                 raised
                 ripple
