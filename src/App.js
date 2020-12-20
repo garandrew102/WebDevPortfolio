@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar/Navbar";
 import LandingPage from "./components/pages/LandingPage/LandingPage";
 import Projects from "./components/pages/Projects/Projects";
 import Resume from "./components/pages/Resume/Resume";
+import Contact from "./components/pages/Contact/Contact";
+import AboutMe from "./components/pages/About Me/AboutMe";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" exact component={LandingPage} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/resume" exact component={Resume} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/about-me" exact component={AboutMe} />
         </Switch>
       </Router>
     </>
