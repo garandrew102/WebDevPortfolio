@@ -1,10 +1,14 @@
 import React from "react";
 import Cards from "../../Cards/Cards";
 import "../../../App.css";
+import projectsbg from "../../../videos/projectsbg.mp4";
 
 const Projects = () => {
   return (
     <div className="projects">
+      <video autoPlay loop muted>
+        <source src={projectsbg} type="video/mp4" />
+      </video>
       <Cards />
     </div>
   );
