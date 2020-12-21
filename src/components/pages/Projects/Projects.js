@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "../../Cards/Cards";
 import "../../../App.css";
+import "../Projects/Projects.css";
 import projectsbg from "../../../videos/projectsbg.mp4";
 
 function Projects() {
