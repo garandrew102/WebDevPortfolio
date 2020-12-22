@@ -5,11 +5,9 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.landing-page,
 .resume,
 .projects,
-.about-me,
-.contact {
+.about-me {
   /* display: flex;
   align-items: center;
   justify-content: space-around; */
