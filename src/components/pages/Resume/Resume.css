@@ -1,0 +1,18 @@
+.resume-right-col {
+  background: black;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2%;
+}
+
+.resume-left-col {
+  color: black;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2%;
+}
+
+.resume-body {
+  display: flex;
+}
