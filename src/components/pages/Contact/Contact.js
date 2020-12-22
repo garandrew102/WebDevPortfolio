@@ -13,15 +13,13 @@ function Contact() {
         <h2>Andrew Garcia</h2>
         <hr />
         <div className="contact-list">
-          <div style={{ fontSize: "25px" }} className="phone">
+          <div className="phone">
             <i className="fa fa-phone-square" aria-hidden="true" />
             (305) 542-8722
           </div>
           <div className="email">
-            <div style={{ fontSize: "25px" }}>
-              <i className="fa fa-envelope" aria-hidden="true" />
-              garandrew102@gmail.com
-            </div>
+            <i className="fa fa-envelope" aria-hidden="true" />
+            garandrew102@gmail.com
           </div>
         </div>
         <div className="contact-grid-bottom">
