@@ -1,7 +1,6 @@
 import React from "react";
-import "../Contact/Contact.css";
+import "./Contact.css";
 import contactbg from "../../../videos/contactbg.mp4";
-import "../../../App.css";
 
 function Contact() {
   return (

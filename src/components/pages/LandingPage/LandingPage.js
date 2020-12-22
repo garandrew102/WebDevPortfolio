@@ -1,8 +1,7 @@
 import React from "react";
 import homePaint from "../../../videos/homePaint.mp4";
 import Button from "../../Button/Button";
-import "../../../App.css";
-import "../LandingPage/LandingPage.css";
+import "./LandingPage.css";
 
 function LandingPage() {
   return (
