@@ -1,26 +1,12 @@
 import React from "react";
 import "../Contact/Contact.css";
 import contactbg from "../../../videos/contactbg.mp4";
-// import "../../../App.css";
+import "../../../App.css";
 
 function Contact() {
   return (
-    <div className="contact-body">
-      <video
-        autoPlay
-        loop
-        muted
-        style={{
-          position: "absolute",
-          width: "100%",
-          left: "50%",
-          top: "50%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate(-50%, -50%)",
-          zIndex: "-1",
-        }}
-      >
+    <div className="contact">
+      <video autoPlay loop muted>
         <source src={contactbg} type="video/mp4" />
       </video>
       <div className="contact-grid">
