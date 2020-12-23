@@ -1,9 +1,23 @@
-.resume-right-col {
-  background: black;
-  color: white;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 2%;
+.resume {
+  /* background-image: url("../../../images/img-2.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.resume > video {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.resume-body {
+  display: flex;
 }
 
 .resume-left-col {
@@ -13,6 +27,19 @@
   padding-top: 2%;
 }
 
-.resume-body {
-  display: flex;
+.resume-left-col > h4 {
+  color: black;
+}
+
+.resume-left-col > hr {
+  border-top: 1px solid black;
+  width: 50%;
+}
+
+.resume-right-col {
+  background: black;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2%;
 }

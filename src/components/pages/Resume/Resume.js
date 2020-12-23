@@ -7,31 +7,17 @@ import "./Resume.css";
 class Resume extends Component {
   render() {
     return (
-      <div>
-        <video
-          autoPlay
-          // loop
-          muted
-          style={{
-            position: "absolute",
-            width: "100%",
-            left: "50%",
-            top: "50%",
-            height: "100%",
-            objectFit: "cover",
-            transform: "translate(-50%, -50%)",
-            zIndex: "-1",
-          }}
-        >
+      <div className="resume">
+        <video autoPlay muted>
           <source src={resumePaint} type="video/mp4" />
         </video>
 
         <div className="resume-body">
           <div className="resume-left-col">
             <h2>Andrew Garcia</h2>
-            <h4 style={{ color: "black" }}>Web Developer | Scrum Master</h4>
-            <hr style={{ borderTop: "1px solid black", width: "50%" }} />
-            <p style={{ width: "80%" }}>
+            <h4>Web Developer | Scrum Master</h4>
+            <hr />
+            <p>
               “One reason product management is such an appealing career is you
               get to sit at the intersection of technology, business, and
               design.”
@@ -39,7 +25,7 @@ class Resume extends Component {
             <p>
               <i>― Gayle Laakmann McDowell</i>
             </p>
-            <hr style={{ borderTop: "1px solid black", width: "50%" }} />
+            <hr />
             <h5>Location</h5>
             <p>Miami, FL</p>
             <h5>Phone</h5>
@@ -48,7 +34,7 @@ class Resume extends Component {
             <p>garandrew102@gmail.com</p>
             <h5>Web</h5>
             <p>www.andrewgport.com</p>
-            <hr style={{ borderTop: "1px solid black", width: "50%" }} />
+            <hr />
           </div>
           <div className="resume-right-col">
             <h2>Education</h2>

@@ -1,3 +1,11 @@
+.contact {
+  /* background-image: url("../../../images/img-8.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 100px;
+}
+
 .contact > video {
   position: absolute;
   left: 50%;
@@ -7,14 +15,6 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-}
-
-.contact {
-  /* background-image: url("../../../images/img-8.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 100px;
 }
 
 .contact-grid {
@@ -56,5 +56,4 @@
   margin-top: 25px;
   padding-left: 200px;
   padding-right: 200px;
-  /* background: white; */
 }
