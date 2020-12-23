@@ -4,19 +4,3 @@
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
 }
-
-.projects {
-  /* display: flex;
-  align-items: center;
-  justify-content: space-around; */
-  height: 100vh;
-}
-
-.projects {
-  /* background-image: url("./images/img-1.jpg"); */
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: black;
-  font-size: 100px;
-}
