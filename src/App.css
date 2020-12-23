@@ -5,13 +5,11 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.projects,
-.about-me {
+.projects {
   /* display: flex;
   align-items: center;
   justify-content: space-around; */
   height: 100vh;
-  font-size: 3rem;
 }
 
 .projects {
@@ -20,14 +18,5 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: black;
-  font-size: 100px;
-}
-
-.about-me {
-  background-image: url("./images/img-8.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
   font-size: 100px;
 }
