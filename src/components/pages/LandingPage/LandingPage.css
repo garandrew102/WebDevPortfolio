@@ -7,7 +7,10 @@
 }
 
 .landing-page {
-  /* background: url("../../../images/img-9.jpg") center center/cover no-repeat; */
+  /* background: url("../../../images/img-9.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
