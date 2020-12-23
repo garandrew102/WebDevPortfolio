@@ -43,3 +43,15 @@
   padding-right: 2em;
   padding-top: 2%;
 }
+
+.resume-right-col > hr {
+  border-top: 1px solid white;
+}
+
+.skills {
+  padding-bottom: 2%;
+}
+
+.skills > ul {
+  margin-left: 35%;
+}

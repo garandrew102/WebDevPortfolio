@@ -78,7 +78,7 @@ class Resume extends Component {
                 </ul>
               }
             />
-            <hr style={{ borderTop: "1px solid white" }} />
+            <hr />
             <h2>Experience</h2>
             <Experience
               startYear="Jan. 2019"
@@ -190,19 +190,17 @@ class Resume extends Component {
                 </ul>
               }
             />
-            <hr style={{ borderTop: "1px solid white" }} />
-            <h2>Skills</h2>
-            <ul
-              style={{
-                marginLeft: "35%",
-              }}
-            >
-              <li>Team & Product Management</li>
-              <li>Public Speaking & Presentation Design</li>
-              <li>Customer Relationship Management</li>
-              <li>Sprint Planning & Backlog</li>
-              <li>Documentation & Reporting</li>
-            </ul>
+            <hr />
+            <div className="skills">
+              <h2>Skills</h2>
+              <ul>
+                <li>Team & Product Management</li>
+                <li>Public Speaking & Presentation Design</li>
+                <li>Customer Relationship Management</li>
+                <li>Sprint Planning & Backlog</li>
+                <li>Documentation & Reporting</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
