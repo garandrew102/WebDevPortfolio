@@ -8,14 +8,11 @@
 
 .landing-page {
   /* background: url("../../../images/img-9.jpg") center center/cover no-repeat; */
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0, 2);
-  object-fit: contain;
-  height: 100vh;
+  height: 89vh;
 }
 
 .landing-page > h1 {
