@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-function Experience() {
-  return (
-    <div>
+class Experience extends Component {
+  render() {
+    return (
       <Grid>
         <Cell col={4}>
           <p>
@@ -16,8 +16,8 @@ function Experience() {
           <p>{this.props.jobDescription}</p>
         </Cell>
       </Grid>
-    </div>
-  );
+    );
+  }
 }
 
 export default Experience;
