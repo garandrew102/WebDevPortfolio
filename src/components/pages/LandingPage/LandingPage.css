@@ -7,7 +7,7 @@
 }
 
 .landing-page {
-  /* background: url("../../../images/img-9.jpg"); */
+  background: url("../../../images/img-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 89vh;
+  height: 92vh;
 }
 
 .landing-page > h1 {
