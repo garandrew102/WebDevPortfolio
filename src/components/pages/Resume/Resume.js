@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Education from "../../Education/Education";
 import Experience from "../../Experience/Experience";
+import Skills from "../../Skills/Skills.js";
 import resumePaint from "../../../videos/resumePaint.mp4";
 import "./Resume.css";
 
@@ -191,16 +192,18 @@ class Resume extends Component {
               }
             />
             <hr />
-            <div className="skills">
-              <h2>Skills</h2>
-              <ul>
-                <li>Team & Product Management</li>
-                <li>Public Speaking & Presentation Design</li>
-                <li>Customer Relationship Management</li>
-                <li>Sprint Planning & Backlog</li>
-                <li>Documentation & Reporting</li>
-              </ul>
-            </div>
+            <h2>Skills</h2>
+            <Skills
+              skills={
+                <ul>
+                  <li>Team & Product Management</li>
+                  <li>Public Speaking & Presentation Design</li>
+                  <li>Customer Relationship Management</li>
+                  <li>Sprint Planning & Backlog</li>
+                  <li>Documentation & Reporting</li>
+                </ul>
+              }
+            />
           </div>
         </div>
       </div>
