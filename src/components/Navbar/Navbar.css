@@ -1,9 +1,5 @@
 .navbar {
   background: black;
-  /* height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
   font-size: 1.2rem;
   position: sticky;
   top: 0;
@@ -20,19 +16,16 @@
 
 .navbar-logo {
   color: white;
-  justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  display: flex;
-  align-items: center;
 }
 
 .github,
 .linkedin {
   color: white;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   font-size: 2rem;
 }
 
@@ -41,7 +34,7 @@
   justify-content: flex-end;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 75vw;
   margin-right: 2rem;
 }
 
@@ -80,6 +73,11 @@
     position: relative;
   }
 
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .nav-menu {
     display: flex;
     justify-content: flex-start;
@@ -114,19 +112,9 @@
     border-radius: 0;
   }
 
-  .navbar-logo {
-    /* position: absolute; */
-    /* top: 0;
-    left: 0;
-    transform: translate(25%, 50%); */
-  }
-
   .menu-icon {
     display: block;
-    /* position: absolute; */
-    /* top: 0;
-    right: 0;
-    transform: translate(-100%, 60%); */
+    margin-right: 20px;
     font-size: 1.8rem;
     cursor: pointer;
   }
