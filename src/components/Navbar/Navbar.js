@@ -13,27 +13,29 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Andrew G.
-          </Link>
-          <a
-            href="https://github.com/garandrew102"
-            className="github"
-            rel="noopener noreferrer"
-            target="_blank"
-            onClick={closeMobileMenu}
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/garandrew102/"
-            className="linkedin"
-            rel="noopener noreferrer"
-            target="_blank"
-            onClick={closeMobileMenu}
-          >
-            <FaLinkedin />
-          </a>
+          <div className="social-links">
+            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+              Andrew G.
+            </Link>
+            <a
+              href="https://github.com/garandrew102"
+              className="github"
+              rel="noopener noreferrer"
+              target="_blank"
+              onClick={closeMobileMenu}
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/garandrew102/"
+              className="linkedin"
+              rel="noopener noreferrer"
+              target="_blank"
+              onClick={closeMobileMenu}
+            >
+              <FaLinkedin />
+            </a>
+          </div>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
