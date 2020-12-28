@@ -1,9 +1,9 @@
 .navbar {
   background: black;
-  height: 80px;
+  /* height: 80px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   font-size: 1.2rem;
   position: sticky;
   top: 0;
@@ -29,9 +29,11 @@
   align-items: center;
 }
 
-.fa-typo3 {
+.github,
+.linkedin {
+  color: white;
   margin-left: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .nav-menu {
@@ -113,18 +115,18 @@
   }
 
   .navbar-logo {
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(25%, 50%); */
   }
 
   .menu-icon {
     display: block;
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 60%); */
     font-size: 1.8rem;
     cursor: pointer;
   }
