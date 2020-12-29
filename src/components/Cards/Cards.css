@@ -1,11 +1,17 @@
 .cards {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 4%;
   flex-wrap: wrap;
   background-position: center;
   background-repeat: no-repeat;
   align-items: initial;
+  padding-bottom: 4%;
+}
+
+.project-one,
+.project-two,
+.project-three {
+  padding-top: 4%;
 }
 
 .meme-park {
@@ -52,22 +58,4 @@ h5 {
 
 .source-code-btn {
   padding-top: 1.5%;
-}
-
-@media only screen and (min-width: 1200px) {
-  .content--blog--container {
-    width: 84%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .cards--items {
-    display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .cards--item {
-    margin-bottom: 2rem;
-  }
 }
