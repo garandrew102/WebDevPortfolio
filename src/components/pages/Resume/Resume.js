@@ -3,6 +3,9 @@ import Education from "../../Education/Education";
 import Experience from "../../Experience/Experience";
 import Skills from "../../Skills/Skills.js";
 import resumePaint from "../../../videos/resumePaint.mp4";
+import { MdEmail, MdLocationOn } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
+import { BiWorld } from "react-icons/bi";
 import "./Resume.css";
 
 class Resume extends Component {
@@ -27,14 +30,24 @@ class Resume extends Component {
               <i>― Gayle Laakmann McDowell</i>
             </p>
             <hr />
-            <h5>Location</h5>
-            <p>Miami, FL</p>
-            <h5>Phone</h5>
-            <p>(305) 542-8722</p>
-            <h5>Email</h5>
-            <p>garandrew102@gmail.com</p>
-            <h5>Web</h5>
-            <p>www.andrewgport.com</p>
+            <div className="contact-info">
+              <div className="web">
+                <BiWorld style={{ fontSize: "2rem" }} />
+                <p>www.andrewgport.com</p>
+              </div>
+              <div className="email">
+                <MdEmail style={{ fontSize: "2rem" }} />
+                <p>garandrew102@gmail.com</p>
+              </div>
+              <div className="phone">
+                <FaPhone style={{ fontSize: "2rem" }} />
+                <p>(305) 542-8722</p>
+              </div>
+              <div className="location">
+                <MdLocationOn style={{ fontSize: "2rem" }} />
+                <p>Miami, FL</p>
+              </div>
+            </div>
             <hr />
           </div>
           <div className="resume-right-col">

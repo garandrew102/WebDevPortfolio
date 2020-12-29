@@ -21,19 +21,32 @@
 }
 
 .resume-left-col {
-  color: black;
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 2%;
 }
 
-.resume-left-col > h4 {
-  color: black;
+.resume-left-col > p {
+  width: 70%;
 }
 
 .resume-left-col > hr {
   border-top: 1px solid black;
   width: 50%;
+}
+
+.web > p,
+.email > p,
+.phone > p,
+.location > p {
+  padding-left: 2rem;
+}
+
+.web,
+.email,
+.phone,
+.location {
+  display: flex;
 }
 
 .resume-right-col {
