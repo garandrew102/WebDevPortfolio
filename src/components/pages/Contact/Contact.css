@@ -61,3 +61,13 @@
   padding-left: 200px;
   padding-right: 200px;
 }
+
+.success-msg {
+  color: blue;
+  padding: 10px 15px;
+}
+
+.error-msg {
+  color: red;
+  padding: 10px 15px;
+}
