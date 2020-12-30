@@ -3,11 +3,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 89vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 89vh;
 }
 
 .contact > video {
@@ -21,53 +20,36 @@
   height: 100%;
 }
 
-.contact-grid {
-  text-align: center;
-  margin: auto;
-  margin-top: 4%;
-  font-weight: bold;
-  font-family: "oxygen";
+.form {
+  background-color: black;
+  padding: 50px 100px 10px 10px;
 }
 
-.contact-grid h2 {
-  font-family: "oxygen";
+.contact > hr {
+  border: 5px solid red;
 }
 
-.contact-grid-bottom {
-  margin-top: 75px;
+label {
+  font-size: 20px;
+  width: 100px;
+  display: inline-block;
+  color: white;
 }
 
-.contact-grid hr {
-  border-top: 1px solid black;
-  width: 29%;
-  margin: auto;
-}
-
-.contact-list {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  font-size: 25px;
-}
-
-.contact-list i {
-  font-size: 40px;
-  padding-top: 3rem;
-  margin-right: 3rem;
-}
-
-.contact-quote p {
-  margin-top: 25px;
-  padding-left: 200px;
-  padding-right: 200px;
+#email,
+#full-name,
+textarea {
+  width: 450px;
 }
 
 .success-msg {
-  color: blue;
-  padding: 10px 15px;
+  color: green;
 }
 
 .error-msg {
   color: red;
-  padding: 10px 15px;
+}
+
+.button {
+  display: flex;
 }

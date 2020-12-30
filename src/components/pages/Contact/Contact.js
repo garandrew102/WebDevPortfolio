@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
-// import Button from "../../Button/Button";
+import contactbg from "../../../videos/contactbg.mp4";
 import "../../Button/Button.css";
 import "./Contact.css";
 
@@ -31,18 +31,22 @@ class Contact extends Component {
 
     this.setState({
       disabled: true,
-      emailSent: true,
+      emailSent: false,
     });
   };
 
   render() {
     return (
-      <div>
-        <h1>Contact Me</h1>
-        <div>
+      <div className="contact">
+        <video autoPlay loop muted>
+          <source src={contactbg} type="video/mp4" />
+        </video>
+        <h1>Let's Connect</h1>
+        <hr />
+        <div className="form">
           <Form onSubmit={this.handleSubmit}>
             <Form.Group>
-              <Form.Label htmlFor="full-name">Full Name</Form.Label>
+              <Form.Label htmlFor="full-name">Name:</Form.Label>
               <Form.Control
                 id="full-name"
                 name="name"
@@ -51,9 +55,9 @@ class Contact extends Component {
                 onChange={this.handleChange}
               ></Form.Control>
             </Form.Group>
-
+            <hr />
             <Form.Group>
-              <Form.Label htmlFor="email">Email</Form.Label>
+              <Form.Label htmlFor="email">Email:</Form.Label>
               <Form.Control
                 id="email"
                 name="email"
@@ -62,36 +66,36 @@ class Contact extends Component {
                 onChange={this.handleChange}
               ></Form.Control>
             </Form.Group>
-
+            <hr />
             <Form.Group>
-              <Form.Label htmlFor="message">message</Form.Label>
+              <Form.Label htmlFor="message">Message:</Form.Label>
               <Form.Control
                 id="message"
                 name="message"
                 as="textarea"
-                rows="3"
+                rows="5"
                 value={this.state.message}
                 onChange={this.handleChange}
               ></Form.Control>
             </Form.Group>
-
-            <Button
-              className="d-inline-block"
-              buttonStyle="btn--outline"
-              buttonSize="btn--large"
-              variant="primary"
-              type="submit"
-              disabled={this.state.disabled}
-            >
-              SUBMIT
-            </Button>
-
-            {this.state.emailSent === true && (
-              <p className="d-inline success-msg">Email Sent!</p>
-            )}
-            {this.state.emailSent === false && (
-              <p className="d-inline error-msg">Email Not Sent!</p>
-            )}
+            <hr />
+            <div className="button">
+              <Button
+                buttonStyle="btn--outline"
+                buttonSize="btn--large"
+                variant="primary"
+                type="submit"
+                disabled={this.state.disabled}
+              >
+                SUBMIT
+              </Button>
+              {this.state.emailSent === true && (
+                <p className="success-msg">Email Sent!</p>
+              )}
+              {this.state.emailSent === false && (
+                <p className="error-msg">Email Not Sent!</p>
+              )}
+            </div>
           </Form>
         </div>
       </div>
