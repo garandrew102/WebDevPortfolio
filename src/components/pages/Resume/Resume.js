@@ -22,12 +22,12 @@ class Resume extends Component {
             <h4>Web Developer | Scrum Master</h4>
             <hr />
             <p>
-              “One reason product management is such an appealing career is you
-              get to sit at the intersection of technology, business, and
-              design.”
+              "A successful website does three things: It attracts the right
+              kinds of visitors. Guides them to the main services or product you
+              offer. Collects contact details for future ongoing relations."
             </p>
             <p>
-              <i>― Gayle Laakmann McDowell</i>
+              <i>― Mohamed Saad</i>
             </p>
             <hr />
             <div className="contact-info">
