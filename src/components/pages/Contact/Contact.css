@@ -41,7 +41,9 @@ label {
   opacity: 80%;
 }
 
-button {
+.button {
+  display: flex;
+  justify-content: center;
   opacity: 80%;
 }
 
