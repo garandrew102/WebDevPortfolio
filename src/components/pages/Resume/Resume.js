@@ -31,19 +31,19 @@ class Resume extends Component {
             </p>
             <hr />
             <div className="contact-info">
-              <div className="web">
+              <div className="my-web">
                 <BiWorld style={{ fontSize: "2rem" }} />
                 <p>www.andrewgport.com</p>
               </div>
-              <div className="email">
+              <div className="my-email">
                 <MdEmail style={{ fontSize: "2rem" }} />
                 <p>garandrew102@gmail.com</p>
               </div>
-              <div className="phone">
+              <div className="my-phone">
                 <FaPhone style={{ fontSize: "2rem" }} />
                 <p>(305) 542-8722</p>
               </div>
-              <div className="location">
+              <div className="my-location">
                 <MdLocationOn style={{ fontSize: "2rem" }} />
                 <p>Miami, FL</p>
               </div>
