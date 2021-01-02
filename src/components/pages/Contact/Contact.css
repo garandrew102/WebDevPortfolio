@@ -1,12 +1,11 @@
 .contact {
-  /* background-image: url("../../../images/img-1.jpg"); */
+  /* background-image: url("../../../images/img-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 87vh;
+  height: 92vh; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .contact > video {
@@ -21,25 +20,29 @@
 }
 
 .form {
-  background-color: black;
-  padding: 50px 100px 10px 10px;
+  margin-top: 4%;
+  width: 451px;
 }
 
-.contact > hr {
-  border: 5px solid red;
+.name,
+.email,
+.message {
+  padding-bottom: 25px;
 }
 
 label {
   font-size: 20px;
-  width: 100px;
-  display: inline-block;
-  color: white;
 }
 
-#email,
 #full-name,
-textarea {
+#email,
+#message {
   width: 450px;
+  opacity: 80%;
+}
+
+button {
+  opacity: 80%;
 }
 
 .success-msg {
@@ -48,8 +51,4 @@ textarea {
 
 .error-msg {
   color: red;
-}
-
-.button {
-  display: flex;
 }
