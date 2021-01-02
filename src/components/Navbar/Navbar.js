@@ -13,22 +13,26 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <div className="social-links">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <div className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               Andrew G.
             </Link>
+          </div>
+          <div className="nav-item">
             <a
               href="https://github.com/garandrew102"
-              className="github"
+              className="nav-links"
               rel="noopener noreferrer"
               target="_blank"
               onClick={closeMobileMenu}
             >
               <FaGithub />
             </a>
+          </div>
+          <div className="nav-item">
             <a
               href="https://www.linkedin.com/in/garandrew102/"
-              className="linkedin"
+              className="nav-links"
               rel="noopener noreferrer"
               target="_blank"
               onClick={closeMobileMenu}

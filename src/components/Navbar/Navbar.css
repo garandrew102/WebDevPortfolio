@@ -21,24 +21,25 @@
   font-size: 2rem;
 }
 
-.github,
+/* .github,
 .linkedin {
   color: white;
   margin-left: 0.5rem;
   font-size: 2rem;
-}
+} */
 
 .nav-menu {
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: flex-end;
   list-style: none;
   text-align: center;
-  width: 75vw;
-  margin-right: 2rem;
+  /* width: 75vw; */
 }
 
 .nav-item {
   height: 80px;
+  /* border: 1px solid red; */
 }
 
 .nav-links {
@@ -50,7 +51,8 @@
   height: 100%;
 }
 
-.nav-links:hover {
+.nav-links:hover,
+.social-links:hover {
   border-bottom: 4px solid white;
   transition: all 0.2s ease-out;
 }
