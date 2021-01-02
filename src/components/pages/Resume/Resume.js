@@ -209,11 +209,11 @@ class Resume extends Component {
             <Skills
               skills={
                 <ul>
-                  <li>Team & Product Management</li>
-                  <li>Public Speaking & Presentation Design</li>
+                  <li>Github</li>
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>MongoDB, Express, React, Node</li>
                   <li>Customer Relationship Management</li>
-                  <li>Sprint Planning & Backlog</li>
-                  <li>Documentation & Reporting</li>
+                  <li>Public Speaking & Presentation Design</li>
                 </ul>
               }
             />
