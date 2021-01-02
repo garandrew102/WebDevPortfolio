@@ -35,18 +35,18 @@
   width: 50%;
 }
 
-.web > p,
-.email > p,
-.phone > p,
-.location > p {
-  padding-left: 2rem;
+.my-web,
+.my-email,
+.my-phone,
+.my-location {
+  display: flex;
 }
 
-.web,
-.email,
-.phone,
-.location {
-  display: flex;
+.my-web > p,
+.my-email > p,
+.my-phone > p,
+.my-location > p {
+  padding-left: 2rem;
 }
 
 .resume-right-col {
