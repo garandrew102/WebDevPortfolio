@@ -95,13 +95,13 @@ class Contact extends Component {
               >
                 SUBMIT
               </Button>
-              {this.state.emailSent === true && (
-                <p className="success-msg">Email Sent!</p>
-              )}
-              {this.state.emailSent === false && (
-                <p className="error-msg">Email Not Sent!</p>
-              )}
             </div>
+            {this.state.emailSent === true && (
+              <p className="success-msg">Email Sent!</p>
+            )}
+            {this.state.emailSent === false && (
+              <p className="error-msg">Email Not Sent!</p>
+            )}
           </Form>
         </div>
       </div>

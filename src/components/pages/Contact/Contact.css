@@ -47,6 +47,12 @@ label {
   opacity: 80%;
 }
 
+.success-msg,
+.error-msg {
+  display: flex;
+  justify-content: center;
+}
+
 .success-msg {
   color: green;
 }
