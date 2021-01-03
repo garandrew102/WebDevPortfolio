@@ -13,33 +13,35 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <div className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Andrew G.
-            </Link>
-          </div>
-          <div className="nav-item">
-            <a
-              href="https://github.com/garandrew102"
-              className="nav-links"
-              rel="noopener noreferrer"
-              target="_blank"
-              onClick={closeMobileMenu}
-            >
-              <FaGithub />
-            </a>
-          </div>
-          <div className="nav-item">
-            <a
-              href="https://www.linkedin.com/in/garandrew102/"
-              className="nav-links"
-              rel="noopener noreferrer"
-              target="_blank"
-              onClick={closeMobileMenu}
-            >
-              <FaLinkedin />
-            </a>
-          </div>
+          <ul className="left-links">
+            <div className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Andrew G.
+              </Link>
+            </div>
+            <div className="nav-item">
+              <a
+                href="https://github.com/garandrew102"
+                className="nav-links"
+                rel="noopener noreferrer"
+                target="_blank"
+                onClick={closeMobileMenu}
+              >
+                <FaGithub />
+              </a>
+            </div>
+            <div className="nav-item">
+              <a
+                href="https://www.linkedin.com/in/garandrew102/"
+                className="nav-links"
+                rel="noopener noreferrer"
+                target="_blank"
+                onClick={closeMobileMenu}
+              >
+                <FaLinkedin />
+              </a>
+            </div>
+          </ul>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
