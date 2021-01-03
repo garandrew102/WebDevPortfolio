@@ -1,13 +1,13 @@
 .landing-page {
-  /* background: url("../../../images/img-1.jpg"); */
+  /* background: url("../../../images/img-1.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 92vh;
 }
 
 .landing-page > video {
