@@ -9,8 +9,8 @@ function LandingPage() {
       <video autoPlay muted>
         <source src={homePaint} type="video/mp4" />
       </video>
-      <h1>ANDREW GARCIA</h1>
-      <p>Hello, I'm A Web Developer</p>
+      <h1>Hello</h1>
+      <p>I'm A Web Developer</p>
       <div className="landing-page-btns">
         <Button
           className="btn"
