@@ -13,6 +13,10 @@
   height: 80px;
 }
 
+.left-links {
+  display: flex;
+}
+
 .navbar-logo {
   color: white;
   margin-left: 20px;
@@ -29,17 +33,14 @@
 } */
 
 .nav-menu {
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: flex-end;
   list-style: none;
   text-align: center;
-  /* width: 75vw; */
 }
 
 .nav-item {
   height: 80px;
-  /* border: 1px solid red; */
 }
 
 .nav-links {
