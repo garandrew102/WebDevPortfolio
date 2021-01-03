@@ -1,9 +1,9 @@
 .projects {
-  /* background-image: url("../../../images/img-1.jpg"); */
+  /* background-image: url("../../../images/img-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 92vh;
+  height: 92vh; */
 }
 
 .projects > video {
@@ -16,10 +16,6 @@
 
 @media screen and (max-width: 960px) {
   .projects {
-    /* background-image: url("../../../images/img-1.jpg"); */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 100%;
   }
 }
