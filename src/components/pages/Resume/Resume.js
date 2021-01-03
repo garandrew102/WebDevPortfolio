@@ -19,7 +19,7 @@ class Resume extends Component {
         <div className="resume-body">
           <div className="resume-left-col">
             <h2>Andrew Garcia</h2>
-            <h4>Web Developer | Scrum Master</h4>
+            <h4>Web Developer</h4>
             <hr />
             <p>
               "A successful website does three things: It attracts the right
