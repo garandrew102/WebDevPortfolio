@@ -8,7 +8,12 @@ function AboutMe() {
       <video autoPlay loop muted>
         <source src={contactbg} type="video/mp4" />
       </video>
-      <h1>About Me</h1>
+      <di>
+        <h1>About Me</h1>
+      </di>
+      <div>
+        <p>Hey There!</p>
+      </div>
     </div>
   );
 }
