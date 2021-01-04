@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-color: black; */
 }
 
 .landing-page > video {
@@ -19,14 +20,12 @@
 }
 
 .landing-page > h1 {
-  color: black;
   font-size: 100px;
   margin-top: -100px;
 }
 
 .landing-page > p {
   margin-top: 8px;
-  color: black;
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
