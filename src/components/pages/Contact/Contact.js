@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
 import contactbg from "../../../videos/contactbg.mp4";
+import Axios from "axios";
 import "../../Button/Button.css";
 import "./Contact.css";
 
@@ -31,8 +32,28 @@ class Contact extends Component {
 
     this.setState({
       disabled: true,
-      emailSent: false,
     });
+
+    Axios.post("http://localhost:3030/api/email", this.state)
+      .then((res) => {
+        if (res.data.success) {
+          this.setState({
+            disabled: true,
+            emailSent: true,
+          });
+        } else {
+          this.setState({
+            disabled: false,
+            emailSent: false,
+          });
+        }
+      })
+      .catch((err) => {
+        this.setState({
+          disabled: false,
+          emailSent: false,
+        });
+      });
   };
 
   render() {
