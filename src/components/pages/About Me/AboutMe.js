@@ -12,7 +12,7 @@ function AboutMe() {
         <h1>About Me</h1>
       </di>
       <div>
-        <p>Hey There!</p>
+        <p>In Progress.....</p>
       </div>
     </div>
   );
