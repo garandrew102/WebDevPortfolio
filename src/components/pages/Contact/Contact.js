@@ -104,9 +104,10 @@ class Contact extends Component {
                 />
               </Form.Group>
             </div>
-            <div className="button">
+            <div className="contact-btn">
               <Button
-                variant="primary"
+                // variant="primary"
+                className="btn-style"
                 type="submit"
                 disabled={this.state.disabled}
               >
