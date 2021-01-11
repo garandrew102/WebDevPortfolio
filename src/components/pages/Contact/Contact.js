@@ -73,7 +73,7 @@ class Contact extends Component {
                   id="full-name"
                   name="name"
                   type="text"
-                  placeholder="Enter Name Here"
+                  placeholder="Name Here"
                   value={this.state.name}
                   onChange={this.handleChange}
                 />
@@ -86,7 +86,7 @@ class Contact extends Component {
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="Enter Email Here"
+                  placeholder="Email Here"
                   value={this.state.email}
                   onChange={this.handleChange}
                 />
@@ -100,7 +100,6 @@ class Contact extends Component {
                   name="message"
                   as="textarea"
                   rows="5"
-                  placeholder="Enter Message Here"
                   value={this.state.message}
                   onChange={this.handleChange}
                 />
