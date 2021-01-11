@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
 import contactbg from "../../../videos/contactbg.mp4";
 import Axios from "axios";
-import "../../Button/Button.css";
 import "./Contact.css";
 
 class Contact extends Component {
@@ -17,8 +16,8 @@ class Contact extends Component {
     };
   }
 
-  handleChange = (event) => {
-    const target = event.target;
+  handleChange = (e) => {
+    const target = e.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
 

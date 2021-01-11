@@ -27,10 +27,6 @@
   font-size: 40px;
 }
 
-.landing-page-btns {
-  margin-top: 30px;
-}
-
 @media screen and (max-width: 960px) {
   .landing-page > h1 {
     font-size: 70px;

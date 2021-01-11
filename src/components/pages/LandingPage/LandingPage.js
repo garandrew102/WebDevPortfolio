@@ -1,6 +1,6 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import homePaint from "../../../videos/homePaint.mp4";
-import Button from "../../Button/Button";
 import "./LandingPage.css";
 
 function LandingPage() {
@@ -12,13 +12,7 @@ function LandingPage() {
       <h1>Hello</h1>
       <p>I'm A Web Developer</p>
       <div className="landing-page-btns">
-        <Button
-          className="btn"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
-          CONTACT
-        </Button>
+        <Button className="btn">CONTACT</Button>
       </div>
     </div>
   );
