@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Form, Button } from "react-bootstrap";
 
 function Footer() {
   return (
@@ -21,16 +21,16 @@ function Footer() {
               type="email"
               placeholder="Email"
             />
-            <Button className="footer-btn" type="submit">
+            <Button className="btn-style" type="submit">
               Subscribe
             </Button>
           </Form>
         </div>
       </section>
-      {/* <div class="footer-links">
-        <div className="footer-link-wrapper">
+      <div class="footer-links">
+        <div class="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>About Us</h2>
+            <h4>About Us</h4>
             <Link to="/sign-up">How it works</Link>
             <Link to="/">Testimonials</Link>
             <Link to="/">Careers</Link>
@@ -38,82 +38,80 @@ function Footer() {
             <Link to="/">Terms of Service</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Contact Us</h2>
+            <h4>Contact Us</h4>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>
             <Link to="/">Destinations</Link>
             <Link to="/">Sponsorships</Link>
           </div>
         </div>
-        <div className="footer-link-wrapper">
+        <div class="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Videos</h2>
+            <h4>Videos</h4>
             <Link to="/">Submit Video</Link>
             <Link to="/">Ambassadors</Link>
             <Link to="/">Agency</Link>
             <Link to="/">Influencer</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Social Media</h2>
+            <h4>Social Media</h4>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
           </div>
         </div>
-      </div> */}
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
-            <Link to="/" className="social-logo">
-              Andrew G.
-            </Link>
-          </div>
-          <small class="website-rights">Andrew G. © 2020</small>
-          <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i class="fab fa-instagram" />
-            </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link linkedin"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin" />
-            </Link>
-          </div>
+      </div>
+      <div class="social-media-wrap">
+        <div class="footer-logo">
+          <Link to="/" className="social-logo">
+            Andrew G.
+          </Link>
         </div>
-      </section>
+        <small class="website-rights">Andrew G. © 2020</small>
+        <div class="social-icons">
+          <Link
+            class="social-icon-link facebook"
+            to="/"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook-f" />
+          </Link>
+          <Link
+            class="social-icon-link instagram"
+            to="/"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram" />
+          </Link>
+          <Link
+            class="social-icon-link youtube"
+            to="/"
+            target="_blank"
+            aria-label="Youtube"
+          >
+            <i class="fab fa-youtube" />
+          </Link>
+          <Link
+            class="social-icon-link twitter"
+            to="/"
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <i class="fab fa-twitter" />
+          </Link>
+          <Link
+            class="social-icon-link linkedin"
+            to="/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin" />
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
