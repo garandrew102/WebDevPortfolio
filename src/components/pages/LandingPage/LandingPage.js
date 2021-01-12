@@ -14,7 +14,7 @@ function LandingPage() {
       <p>I'm A Web Developer</p>
       <div className="landing-page-btns">
         <Link to="/contact">
-          <Button className="btn-style">CONTACT</Button>
+          <Button className="landing-page-btn-style">CONTACT</Button>
         </Link>
       </div>
     </div>
