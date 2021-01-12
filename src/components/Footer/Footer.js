@@ -66,10 +66,10 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              Andrew
+              Andrew G.
             </Link>
           </div>
-          <small class="website-rights">Andrew © 2020</small>
+          <small class="website-rights">Andrew G. © 2020</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
