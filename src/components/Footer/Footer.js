@@ -2,6 +2,13 @@ import React from "react";
 import "./Footer.css";
 import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaYoutubeSquare,
+  FaTwitterSquare,
+  FaLinkedin,
+} from "react-icons/fa";
 
 function Footer() {
   return (
@@ -21,7 +28,7 @@ function Footer() {
               type="email"
               placeholder="Email"
             />
-            <Button className="btn-style" type="submit">
+            <Button className="footer-btn" type="submit">
               Subscribe
             </Button>
           </Form>
@@ -68,48 +75,23 @@ function Footer() {
             Andrew G.
           </Link>
         </div>
-        <small class="website-rights">Andrew G. © 2020</small>
-        <div class="social-icons">
-          <Link
-            class="social-icon-link facebook"
-            to="/"
-            target="_blank"
-            aria-label="Facebook"
-          >
-            <i class="fab fa-facebook-f" />
-          </Link>
-          <Link
-            class="social-icon-link instagram"
-            to="/"
-            target="_blank"
-            aria-label="Instagram"
-          >
-            <i class="fab fa-instagram" />
-          </Link>
-          <Link
-            class="social-icon-link youtube"
-            to="/"
-            target="_blank"
-            aria-label="Youtube"
-          >
-            <i class="fab fa-youtube" />
-          </Link>
-          <Link
-            class="social-icon-link twitter"
-            to="/"
-            target="_blank"
-            aria-label="Twitter"
-          >
-            <i class="fab fa-twitter" />
-          </Link>
-          <Link
-            class="social-icon-link linkedin"
-            to="/"
-            target="_blank"
-            aria-label="LinkedIn"
-          >
-            <i class="fab fa-linkedin" />
-          </Link>
+        <small className="website-rights">Andrew G. © 2020</small>
+        <div className="social-icons">
+          <a href="/" className="social-icon-link facebook" target="_blank">
+            <FaFacebookSquare />
+          </a>
+          <a href="/" className="social-icon-link instagram" target="_blank">
+            <FaInstagramSquare />
+          </a>
+          <a href="/" className="social-icon-link youtube" target="_blank">
+            <FaYoutubeSquare />
+          </a>
+          <a href="/" className="social-icon-link twitter" target="_blank">
+            <FaTwitterSquare />
+          </a>
+          <a href="/" className="social-icon-link linkedin" target="_blank">
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </div>
