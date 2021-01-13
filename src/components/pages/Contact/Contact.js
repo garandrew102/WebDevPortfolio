@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
-import contactbg from "../../../videos/contactbg.mp4";
+import bluenetwork from "../../../videos/bluenetwork.mp4";
 import Axios from "axios";
 import "./Contact.css";
 
@@ -18,6 +18,7 @@ class Contact extends Component {
 
   handleChange = (e) => {
     const target = e.target;
+    const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
 
     this.setState({
@@ -58,7 +59,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <video autoPlay loop muted>
-          <source src={contactbg} type="video/mp4" />
+          <source src={bluenetwork} type="video/mp4" />
         </video>
 
         <div className="form">
